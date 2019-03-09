@@ -3,7 +3,6 @@
 # input(s): the five data CSV files (one for each player)
 # output(s): Summary txt and shots-data.csv
 
-# example: reading file with relative path
 curry <- read.csv("../data/stephen-curry.csv", stringsAsFactors = FALSE)
 iguodala <- read.csv("../data/andre-iguodala.csv", stringsAsFactors = FALSE)
 green <- read.csv("../data/draymond-green.csv", stringsAsFactors = FALSE)

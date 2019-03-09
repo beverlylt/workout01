@@ -1,7 +1,7 @@
 # title: Data Script
-# description: 
-# input(s):the five data CSV files (one for each player)
-# output(s): 
+# description: Preparing data, and creating summaries
+# input(s): the five data CSV files (one for each player)
+# output(s): Summary txt and shots-data.csv
 
 # example: reading file with relative path
 curry <- read.csv("../data/stephen-curry.csv", stringsAsFactors = FALSE)

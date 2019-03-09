@@ -59,7 +59,7 @@ stephen_shot_chart
 dev.off()
 
 gsw_shot_chart <- ggplot(data = data) + annotation_custom(court_image, -250, 250, -50, 420) + geom_point(aes(x = x, y = y, color = shot_made_flag)) + ylim(-50, 420) +
-  ggtitle('Shot Chart: GSW (2016 season)') + theme_minimal() + facet_wrap(~name)
+  ggtitle('Shot Chart: GSW (2016 season)') + theme_minimal() + facet_wrap(~name) + theme(legend.position = "top", legend.title = element_blank())
 
 pdf(file = '../images/gsw-shot-charts.pdf', width = 8, height = 7)
 gsw_shot_chart

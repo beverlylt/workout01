@@ -11,7 +11,7 @@ thompson <- read.csv("../data/klay-thompson.csv", stringsAsFactors = FALSE)
 
 curry$name <- c('Stephen Curry')
 iguodala$name <- c('Andre Iguodala')
-green$name <- c('Graymond Green')
+green$name <- c('Draymond Green')
 durant$name <- c('Kevin Durant')
 thompson$name <- c('Klay Thompson')
 

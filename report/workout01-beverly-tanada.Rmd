@@ -1,0 +1,7 @@
+---
+title: "workout01-beverly-tanada"
+author: "Beverly Leslie Tanada"
+date: "3/9/2019"
+output: github_document
+---
+
